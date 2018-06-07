@@ -1,10 +1,10 @@
 class CreateCostumeStore < ActiveRecord::Migration
   def change
-    add_table :costumes do |t|
+    add_table :costume_stores do |t|
       t.string :name
-      t.integer :price
-      t.string :size
-      t.url :image_url
+      t.string :location
+      t.integer :inventory
+      t.integer :employees
     end
   end
 end
