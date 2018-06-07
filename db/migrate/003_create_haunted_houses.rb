@@ -3,7 +3,7 @@ class CreateHauntedHouse < ActiveRecord::Migration[5.1]
     create_table :haunted_houses do |t|
       t.string :name
       t.string :location
-      t.string :them
+      t.string :theme
       t.integer :price
       t.string  :familyfriendly
       t.datetime :openingdate
