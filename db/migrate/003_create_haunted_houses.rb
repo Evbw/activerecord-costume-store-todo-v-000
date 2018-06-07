@@ -9,6 +9,7 @@
 #      t.datetime :openingdate
 #      t.datetime :closingdate
 #      t.text :description
+#      t.timestamps
 #    end
 #  end
 #end
