@@ -5,6 +5,9 @@ class CreateCostumeStore < ActiveRecord::Migration
       t.string :location
       t.integer :inventory
       t.integer :employees
+      t.string  :stillopen
+      t.time :openingtime
+      t.time :closingtime
     end
   end
 end
