@@ -8,6 +8,7 @@
 #      t.boolean  :stillopen
 #      t.time :openingtime
 #      t.time :closingtime
+#      t.timestamps
 #    end
 #  end
 #end
